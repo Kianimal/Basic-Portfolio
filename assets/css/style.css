@@ -30,9 +30,19 @@ h1{
 
 p {
     color:#777777;
-    padding:0px 20px;
+    padding:0px 20px 20px 20px;
     margin:0px;
     font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.pPicAlign {
+    color:#777777;
+    width:640px;
+    padding:0px 20px 0px 0px;
+    margin:0px;
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    position: relative;
+    left:300px;
 }
 
 #contentAreaHead {
@@ -97,4 +107,12 @@ footer {
     bottom:0px;
     left:50%;
     text-align:center;
+}
+
+#portrait {
+    background-image: url("../images/portrait.jpg");
+    width: 250px;
+    height:300px;
+    margin:0px 0px 20px 20px;
+    position: absolute;
 }
