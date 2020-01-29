@@ -61,8 +61,12 @@ body{
     position: absolute;
     right:0px;
     top:40%;
+}
+
+#link{
     color:#777777;
     font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    text-decoration: none;
 }
 
 #sepBarGrey {
@@ -91,6 +95,15 @@ header {
     left:-2px;
 }
 
+#footerTealBar {
+    height:10px;
+    width:100%;
+    background-color: #4aaaa5;
+    position: absolute;
+    bottom:7.5%;
+    left:0px;
+}
+
 footer {
     background-color: #666666;
     position:fixed;
@@ -98,7 +111,7 @@ footer {
     left:0;
     width:100%;
     height:7.5%;
-    color:#777777;
+    color:#eeeeee;
     font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
 }
 
