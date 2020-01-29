@@ -69,7 +69,7 @@ body{
     text-decoration: none;
 }
 
-#sepBarGrey {
+#greyBar {
     background-color: #eeeeee;
     height:5px;
     width:920px;
@@ -78,10 +78,12 @@ body{
 }
 
 #contentAreaBody {
-    border:1px solid #eeeeee;
+    border:1px solid #dddddd;
     width:960px;
     background-color: white;
     margin:130px auto auto;
+    position: absolute;
+    left:480px;
 }
 
 header {
@@ -89,7 +91,7 @@ header {
     width:100%;
     height: 100px;
     margin:auto;
-    border:2px solid #eeeeee;
+    border:2px solid #dddddd;
     position: absolute;
     top:-2px;
     left:-2px;
@@ -106,9 +108,10 @@ header {
 
 footer {
     background-color: #666666;
+    border: 5px solid #4aaaa5;
     position:fixed;
-    bottom:0;
-    left:0;
+    bottom:-5px;
+    left:-5px;
     width:100%;
     height:7.5%;
     color:#eeeeee;
@@ -127,4 +130,11 @@ footer {
     height:300px;
     margin:0px 0px 20px 20px;
     position: absolute;
+}
+
+.portfolioPic {
+    width:280px;
+    height:200px;
+    padding:5px 20px;
+    float:left;
 }
