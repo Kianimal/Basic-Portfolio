@@ -141,12 +141,13 @@ footer {
 
 .portfolioTealBar {
     width:280px;
-    height: 30px;
+    height: 40px;
     color:white;
+    font-size: 18px;
     text-align: center;
-    line-height: 30px;
+    line-height: 40px;
     display:inline-block;
     background-color: #4aaaa5;
     position: relative;
-    top:-40px;
+    top:-50px;
 }
