@@ -80,10 +80,10 @@ body{
 #contentAreaBody {
     border:1px solid #dddddd;
     width:960px;
+    height: auto;
     background-color: white;
-    margin:130px auto auto;
-    position: absolute;
-    left:480px;
+    margin:130px auto;
+    padding: 0px 0px 10px;
 }
 
 header {
@@ -135,6 +135,6 @@ footer {
 .portfolioPic {
     width:280px;
     height:200px;
-    padding:5px 20px;
-    float:left;
+    padding:20px;
+    display:inline-block;
 }
